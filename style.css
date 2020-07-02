@@ -1,0 +1,174 @@
+body{
+    margin:0; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner{
+    background-repeat: no-repeat; 
+    height: 650px;
+    background-image: url(images/header-bg.png);
+    
+}
+.half-width{
+    display: inline;
+    float: left; 
+    width: 40%; 
+    margin: 2.5%;
+    padding: 2.5%;  
+}
+
+h1{
+    font-size: 40px;
+    color: #ff1a73;
+    padding-left: 233px;
+}
+                       
+.half-width h2{
+    font-size: 30px;
+    padding-left: 0px;
+}
+.highlight{
+    color: orange;
+}
+p{
+    text-align: left;
+    color: gray;
+    padding-left: 233px;
+}
+.image1{
+    width: 70%;
+}
+
+.link-button{
+    text-decoration: none;
+    /*below style for gradient color of link buttonz*/
+    background-color:#ff1a73;
+    padding: 10px 20px;
+    margin-left: 233px; 
+    border-radius: 5px;
+    color: white;
+    font-weight: 20;
+    box-shadow: 10px 10px 20px gray;
+}
+a:hover {font-size: 50px;
+    color: #F9E79F;
+    
+}
+
+span{
+    color: saddlebrown;
+}
+
+/*first part*/
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-size: 100%;
+    height: 650px;
+}
+.first-half{
+    display: inline;
+    float: left; 
+    width: 40%; 
+    margin: 2.5%;
+    padding: 2.5%;
+}
+.second-half{
+    display: inline;
+    float: left; 
+    width: 40%; 
+    margin: 2.5%;
+    padding: 2.5%;
+}
+.image2{
+    width: 70%;
+    padding-left: 150px;
+}
+.second-half p{
+
+    padding-left: 0px;
+}
+.download-button{
+    
+}
+.download-me-button{
+
+    text-decoration: none;
+    background-color:#ff1a73;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px gray;
+}
+/*second part*/
+
+
+.previous-projects {
+    float: left;
+    margin-left: 30px;
+    height: 650px;
+    background-image: url(images/latest-work-bg.png);
+}
+#h2-center {
+    text-align: center;
+}
+
+
+.photos{
+    width: 28%;
+    margin: 2%;
+    box-shadow: 10px 10px 20px gray;
+}
+
+/*part four below*/
+.reviews{
+    margin-top: 150px;
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+h2{
+    text-align: center;
+    
+}
+.reviews p{
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.mail-info h5{
+    padding-top: 20px;
+}
+.mail-info{
+    width: 500px;
+    border-radius: 5px;
+    background-color:#ff1a73;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 5px; 
+}
+.mail-info h3{
+    text-decoration: none;
+}
+.mail-info a:hover{
+    font-size: 15px;
+    color: #F9E79F;
+}
+.icon{
+    text-align: center;
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+}
+
+
+footer{
+    font-size: small;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
